@@ -40,7 +40,7 @@ $ python manage.py migrate
 # create an administrator account
 $ python manage.py createsuperuser --email admin@example.com --username admin
 ```
-# Create a token for the superuser from the command line
+## Create a token for the superuser from the command line
 ```sh
 $ python manage.py drf_create_token admin
 ```
